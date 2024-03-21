@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: cornsilk;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whole {
+  display: flex;
+}
+
+.card {
+  width: 360px;
+  height: 528px;
+  background-color: white;
+  margin: 40px;
+}
+
+.food {
+  width: 360px;
+  height: 216px;
+  border-radius: 16 16 0 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin: 32px 0px 24px 0px;
+}
+
+.icons span {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-left: 24px;
+}
+
+.fire {
+  width: 29px;
+  height: 29px;
+  margin: 5px 0px 0px 89px;
+}
+
+.wheat {
+  width: 24px;
+  height: 24px;
+  margin-left: 9px;
+}
+
+.span {
+  width: 312px;
+  height: 75px;
+  font-size: 16px;
+  gap: 0px;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(110, 121, 140, 1);
+  margin: 0px 24px 24px 24px;
+}
+
+.species {
+  width: 312px;
+  height: 25px;
+  color: rgba(165, 173, 187, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 24px 41px 24px;
+}
+
+.prices {
+  display: flex;
+}
+.noline {
+  font-size: 28px;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(8, 31, 50, 1);
+  margin-left: 24px;
+}
+
+.line {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+  color: rgba(248, 89, 59, 1);
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.button {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: rgba(46, 204, 113, 1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  border: 0px;
+  letter-spacing: 5px;
+  margin-left: 29px;
+  position: absolute;
+  left: 237px;
+  top: 65%;
+}
+
+.info {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 58px;
+  left: 337px;
+}
+
+.leaf {
+  margin-left: 132px;
+  margin-right: -80px;
+}
+
+.button2 {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: rgba(46, 204, 113, 1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  border: 0px;
+  letter-spacing: 5px;
+  margin-left: 29px;
+  position: absolute;
+  left: 53%;
+  top: 65%;
+}
+
+.button3 {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: rgba(46, 204, 113, 1);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  border: 0px;
+  letter-spacing: 5px;
+  margin-left: 29px;
+  position: absolute;
+  left: 87%;
+  top: 65%;
+}
+
+.info2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 58px;
+  left: 61%;
+}
+
+.info3 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 58px;
+  left: 95%;
+}
+
+.bolo {
+  margin-left: 118px;
+}
